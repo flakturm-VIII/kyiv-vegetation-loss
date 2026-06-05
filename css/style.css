@@ -115,7 +115,3 @@ hr {
 .yellow {
     background: #fee08b;
 }
-
-.leaflet-tile {
-    transition: opacity 0.2s ease;
-}
