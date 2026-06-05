@@ -60,7 +60,7 @@ body {
     margin-bottom: 0;
 }
 
-.layer-block:first-child {
+.layer-block:nth-child(2) {
     margin-bottom: 0;
 }
 
