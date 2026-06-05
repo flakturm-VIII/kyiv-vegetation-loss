@@ -52,13 +52,11 @@ body {
     line-height: 1.4;
 }
 
-#control-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.layer-block {
+    margin-bottom: 12px;
 }
 
-.layer-block {
+.layer-block:last-child {
     margin-bottom: 0;
 }
 
