@@ -119,5 +119,6 @@ bindLayerToggle(
 
 bindLayerToggle(
     "jawg",
+    "jawg-opacity",
     jawg
 );
