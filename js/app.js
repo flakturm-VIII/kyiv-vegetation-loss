@@ -18,7 +18,7 @@ map.createPane("overlay");
 map.getPane("overlay").style.zIndex = 400;
 
 const jawg = L.tileLayer(
-    "https://tile.jawg.io/jawg-dark/{z}/{x}/{y}.png?access-token=YOUR_JAWG_TOKEN",
+    "https://tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=OUJbVsJhRiqftiADnUpOPqdMsdHuOkK9DYolFjI5ZKFeUnro8owjEMUUNQjb3wX6",
     {
         attribution:
             "© Jawg Maps © OpenStreetMap contributors",
