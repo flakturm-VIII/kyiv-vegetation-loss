@@ -56,6 +56,10 @@ body {
     margin-bottom: 12px;
 }
 
+.layer-block:first-child {
+    margin-bottom: 0;
+}
+
 .layer-block:last-child {
     margin-bottom: 0;
 }
