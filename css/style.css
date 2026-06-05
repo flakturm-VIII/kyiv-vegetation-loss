@@ -60,13 +60,10 @@ body {
     margin-bottom: 0;
 }
 
-.layer-block:nth-child(2) {
-    margin-bottom: 0;
-}
-
 .layer-block input[type="range"] {
     width: 100%;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 hr {
