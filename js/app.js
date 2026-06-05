@@ -1,5 +1,5 @@
 const map = L.map("map", {
-    zoomControl: true
+    zoomControl: false
 }).setView([50.4501, 30.5234], 11);
 
 map.createPane("basemap");
