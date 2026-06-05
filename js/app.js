@@ -51,7 +51,6 @@ const googleSatellite = L.tileLayer(
 );
 
 const pmtilesUrl = "tiles/vegetation_loss.pmtiles";
-
 const vegetationLoss = protomaps.leafletLayer({
     url: pmtilesUrl,
     opacity: 1,
