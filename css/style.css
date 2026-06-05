@@ -115,3 +115,9 @@ hr {
 .yellow {
     background: #fee08b;
 }
+
+#google-opacity,
+#esri-current-opacity,
+#esri-clarity-opacity {
+    display: none;
+}
