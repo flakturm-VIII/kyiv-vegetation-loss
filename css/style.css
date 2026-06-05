@@ -114,3 +114,7 @@ hr {
 .yellow {
     background: #fee08b;
 }
+
+.leaflet-tile {
+    outline: 1px solid transparent;
+}
