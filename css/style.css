@@ -56,11 +56,11 @@ body {
     margin-bottom: 12px;
 }
 
-.layer-block:first-child {
+.layer-block:last-child {
     margin-bottom: 0;
 }
 
-.layer-block:last-child {
+.layer-block:has(input[type="range"]) {
     margin-bottom: 0;
 }
 
