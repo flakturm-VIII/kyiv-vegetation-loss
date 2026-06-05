@@ -1,6 +1,6 @@
 const map = L.map("map", {
     zoomControl: false
-}).setView([50.4501, 30.5234], 11);
+}).setView([50.4501, 30.5234], 12);
 
 map.createPane("basemap");
 map.getPane("basemap").style.zIndex = 100;
