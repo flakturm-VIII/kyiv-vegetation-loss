@@ -50,13 +50,13 @@ const googleSatellite = L.tileLayer(
     }
 );
 
-const vegetationLoss = L.tileLayer(
-    "tiles/vegetation_loss/{z}/{x}/{y}.png",
-    {
-        opacity: 1,
-        pane: "overlay"
-    }
-);
+const pmtilesUrl = "tiles/vegetation_loss.pmtiles";
+
+const vegetationLoss = protomaps.leafletLayer({
+    url: pmtilesUrl,
+    opacity: 1,
+    pane: "overlay"
+});
 
 jawg.addTo(map);
 vegetationLoss.addTo(map);
