@@ -52,10 +52,14 @@ body {
     line-height: 1.4;
 }
 
-.layer-block {
+#control-panel {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.layer-block {
+    margin-bottom: 0;
 }
 
 .layer-block input[type="range"] {
