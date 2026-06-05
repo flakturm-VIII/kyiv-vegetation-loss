@@ -5,6 +5,7 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
+    background: #282c34;
 }
 
 body {
@@ -113,4 +114,8 @@ hr {
 
 .yellow {
     background: #fee08b;
+}
+
+.leaflet-tile {
+    transition: opacity 0.2s ease;
 }
