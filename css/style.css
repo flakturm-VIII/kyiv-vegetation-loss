@@ -52,6 +52,10 @@ body {
     line-height: 1.4;
 }
 
+.layer-block {
+    margin-bottom: 12px;
+}
+
 .layer-block input[type="range"] {
     width: 100%;
     margin-top: 5px;
