@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vegetation Loss 2016–2025</title>
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet/dist/leaflet.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="control-panel">
+
+    <h2>Vegetation Loss 2016–2025</h2>
+
+    <p>
+        Areas shown in yellow to red indicate significant vegetation loss
+        derived from Sentinel-2 NDVI median composites.
+    </p>
+
+    <hr>
+
+    <div class="layer-block">
+
+        <label>
+            <input type="checkbox" id="veg-loss" checked>
+            Vegetation loss 2016–2025
+        </label>
+
+        <input
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            id="veg-loss-opacity"
+        >
+    </div>
+
+    <div class="layer-block">
+
+        <label>
+            <input type="checkbox" id="google">
+            Satellite ~2022–2025 (Google)
+        </label>
+
+        <input
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            id="google-opacity"
+        >
+    </div>
+
+    <div class="layer-block">
+
+        <label>
+            <input type="checkbox" id="esri-current">
+            Satellite ~2024–2025 (Esri)
+        </label>
+
+        <input
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            id="esri-current-opacity"
+        >
+    </div>
+
+    <div class="layer-block">
+
+        <label>
+            <input type="checkbox" id="esri-clarity">
+            Satellite ~2016–2018
+        </label>
+
+        <input
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            id="esri-clarity-opacity"
+        >
+    </div>
+
+    <div class="layer-block">
+
+        <label>
+            <input type="checkbox" id="jawg" checked>
+            Dark basemap
+        </label>
+
+        <input
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            id="jawg-opacity"
+        >
+    </div>
+
+</div>
+
+<div id="legend">
+    <h3>Vegetation loss</h3>
+
+    <div><span class="red"></span> Severe loss</div>
+    <div><span class="orange"></span> Strong loss</div>
+    <div><span class="yellow"></span> Moderate loss</div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
