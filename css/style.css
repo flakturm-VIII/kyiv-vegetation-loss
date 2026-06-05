@@ -116,5 +116,5 @@ hr {
 }
 
 .leaflet-tile {
-    outline: 1px solid transparent;
+    image-rendering: auto;
 }
