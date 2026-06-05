@@ -60,7 +60,7 @@ body {
     margin-bottom: 0;
 }
 
-.layer-block:has(input[type="range"]) {
+.layer-block:first-child {
     margin-bottom: 0;
 }
 
