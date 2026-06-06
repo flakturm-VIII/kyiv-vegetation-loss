@@ -123,7 +123,7 @@ hr {
 
 .leaflet-control-attribution {
     background: rgb(30 30 30 / 50%) !important;
-    backdrop-filter: blur(4px) !important;
+    backdrop-filter: blur(10px) !important;
     color: #abb2bf !important;
 }
 
