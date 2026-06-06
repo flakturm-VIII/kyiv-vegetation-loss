@@ -17,6 +17,10 @@ body {
         sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 #control-panel {
 
     position: absolute;
@@ -43,7 +47,6 @@ body {
 }
 
 #control-panel h3 {
-    margin-top: 0;
     color: #e5c07b;
 }
 
@@ -94,7 +97,6 @@ hr {
 }
 
 #legend h4 {
-    margin-top: 0;
     color: #e5c07b;
 }
 
@@ -139,6 +141,7 @@ hr {
 #jawg-opacity,
 #google-opacity,
 #esri-current-opacity,
+.legend-title,
 .legend-severe,
 .legend-strong,
 #esri-clarity-opacity {
