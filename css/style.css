@@ -115,7 +115,7 @@ hr {
 
     margin-right: 8px;
 
-    vertical-align: middle;
+    position: relative;
 }
 
 .red {
