@@ -139,8 +139,8 @@ hr {
 #jawg-opacity,
 #google-opacity,
 #esri-current-opacity,
-.red,
-.orange,
+.legend-severe,
+.legend-strong,
 #esri-clarity-opacity {
     display: none;
 }
