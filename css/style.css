@@ -80,7 +80,7 @@ hr {
 
     position: absolute;
 
-    bottom: 17px;
+    bottom: 32px;
     right: 15px;
 
     z-index: 1000;
@@ -114,6 +114,10 @@ hr {
     height: 16px;
 
     margin-right: 8px;
+
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
 }
 
 .red {
