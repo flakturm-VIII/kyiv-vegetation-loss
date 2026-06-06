@@ -127,6 +127,10 @@ hr {
     color: #abb2bf !important;
 }
 
+.leaflet-control-attribution a {
+    color: #abb2bf !important;
+}
+
 #jawg-opacity,
 #google-opacity,
 #esri-current-opacity,
