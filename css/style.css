@@ -121,6 +121,12 @@ hr {
     background: #fee08b;
 }
 
+.leaflet-control-attribution {
+    background: rgb(30 30 30 / 50%) !important;
+    backdrop-filter: blur(4px) !important;
+    color: #abb2bf !important;
+}
+
 #jawg-opacity,
 #google-opacity,
 #esri-current-opacity,
