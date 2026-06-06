@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .layer-block {
     font-size: 15px;
-    margin-bottom: 12px;
+    margin-bottom: 9px;
 }
 
 .layer-block:last-child {
@@ -116,7 +116,7 @@ hr {
     margin-right: 8px;
 
     position: relative;
-    top: 3px;
+    top: 2px;
 }
 
 .red {
