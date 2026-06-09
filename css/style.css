@@ -58,13 +58,16 @@ h1, h2, h3, h4, h5, h6 {
 .layer-block {
     font-size: 15px;
     margin-bottom: 9px;
-    cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
 }
 
 .layer-block:last-child {
     margin-bottom: 0;
+}
+
+.layer-block label {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .layer-block input[type="range"] {
