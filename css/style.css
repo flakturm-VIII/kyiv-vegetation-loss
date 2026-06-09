@@ -116,11 +116,6 @@ hr {
     font-size: 14px;
 }
 
-#legend div {
-    display: flex;
-    align-items: center;
-}
-
 .red,
 .orange,
 .yellow {
