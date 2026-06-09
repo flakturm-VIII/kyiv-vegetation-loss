@@ -113,9 +113,12 @@ hr {
 }
 
 #legend {
+    font-size: 14px;
+}
+
+#legend div {
     display: flex;
     align-items: center;
-    font-size: 14px;
 }
 
 .red,
