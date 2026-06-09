@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .layer-block {
     font-size: 15px;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
 }
 
 .layer-block:last-child {
@@ -113,6 +113,8 @@ hr {
 }
 
 #legend {
+    display: flex;
+    align-items: center;
     font-size: 14px;
 }
 
